@@ -1,6 +1,7 @@
 Class = require 'lib/class'
 push = require 'lib/push'
 Timer = require 'lib/knife.timer'
+System = require 'lib/knife.system'
 
 require 'src/constants'
 

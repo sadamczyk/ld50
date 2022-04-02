@@ -23,7 +23,10 @@ end
 function love.draw()
     push:start()
 
-    -- Draw stuff here
+    -- background
+    love.graphics.setColor(216/255, 159/255, 34/255, 1)
+    love.graphics.rectangle('fill', 0, 0, VIRTUAL_WIDTH, VIRTUAL_HEIGHT)
+    love.graphics.setColor(0, 0, 0, 1) -- reset color
 
     push:finish()
 end

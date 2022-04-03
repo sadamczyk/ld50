@@ -106,4 +106,18 @@ function love.keypressed(key)
     if key == 'escape' then
         love.event.quit()
     end
+
+    -- select target
+    if key == 'up' or key == 'down' or key == 'left' or key == 'right' then
+        
+    -- throw bomb
+    elseif key == 'enter' then
+
+    -- dodge bomb
+    elseif key == 'shift' then
+
+    -- catch bomb
+    elseif key == 'space' then
+        
+    end
 end
